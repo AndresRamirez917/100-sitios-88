@@ -109,7 +109,7 @@ form button {
 }
 
 .btn-2:hover {
-  background: rgb(133, 133, 243);
+  background: rgb(1, 55, 11);
   color: #fff;
   border: none;
 }
@@ -123,8 +123,177 @@ form button {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(400px, auto);
+  grid-auto-rows: minmax(200px, auto);
   gap: 30px;
+}
+
+#mainheader {
+  width: 90%;
+  margin: 0 auto;
+}
+#mainheader .container-nav1-2 {
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+#mainheader .container-nav1-2 .nav-2 .flex {
+  justify-content: space-between;
+  text-align: end;
+  color: red;
+}
+#mainheader .container-nav3-4 {
+  justify-content: space-between;
+}
+#mainheader .container-nav3-4 .form-inline {
+  margin-top: 1.5rem;
+  height: 40px;
+  width: 50px;
+  justify-content: end;
+}
+#mainheader .container-nav3-4 .form-inline input {
+  padding: 10px;
+}
+#mainheader .container-nav3-4 .form-inline ::-moz-placeholder {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+#mainheader .container-nav3-4 .form-inline ::placeholder {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+#mainheader .container-nav3-4 .form-inline .btn-outline-dark {
+  width: 50px;
+  height: 40px;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin: 3rem 0;
+}
+#mainheader .navbar li {
+  margin-left: 1rem;
+}
+
+#showcase {
+  width: 85%;
+  margin: 0 auto;
+}
+#showcase .flexbox-1 {
+  background: url("/img/showcase-1.jpg");
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+#showcase .flexbox-1 a {
+  margin: 1rem 0;
+}
+#showcase .flexbox-2 {
+  background: url("/img/showcase-2.jpg");
+  grid-column: 4/5;
+  grid-row: 1;
+}
+#showcase .flexbox-2 h2 {
+  font-size: 1.5rem;
+}
+#showcase .flexbox-2 p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+#showcase .flexbox-3 {
+  background: url("/img/showcase-3.jpg");
+  grid-column: 4/5;
+  grid-row: 2;
+}
+#showcase .flexbox-2 h2,
+#showcase .flexbox-3 h2 {
+  margin-top: 0;
+}
+#showcase .flexbox-2 h2,
+#showcase .flexbox-3 h2 {
+  font-size: 1.5rem;
+}
+#showcase .flexbox-2 p,
+#showcase .flexbox-3 p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+#showcase .flexbox-1,
+#showcase .flexbox-2,
+#showcase .flexbox-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+#panels {
+  width: 90%;
+  margin: 0 auto;
+}
+#panels .container-panels .left-panel {
+  width: 33%;
+}
+#panels .container-panels .left-panel img {
+  width: 80%;
+}
+#panels .container-panels .left-panel .left-panel-content {
+  width: 80%;
+}
+#panels .container-panels .left-panel .left-panel-content p {
+  text-align: justify;
+  margin: 1rem 0;
+  line-height: 25px;
+}
+#panels .container-panels .center-panel {
+  width: 33%;
+  margin-top: 6rem;
+}
+#panels .container-panels .center-panel .center-panel-flex .flexbox-1 {
+  margin-bottom: 3rem;
+}
+#panels .container-panels .center-panel .center-panel-flex .flexbox-1 img {
+  width: 100px;
+}
+#panels .container-panels .center-panel .center-panel-flex .flexbox-1 .flexbox-content a {
+  margin-bottom: 1rem;
+}
+#panels .container-panels .center-panel .center-panel-flex .flexbox-1 .flexbox-content a:hover {
+  text-decoration: underline;
+}
+#panels .container-panels .center-panel .center-panel-flex .flexbox-1 .flexbox-content h4 {
+  margin-top: 1rem;
+}
+#panels .container-panels .rigth-panel {
+  width: 33%;
+  margin-top: 6rem;
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .btn {
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: none;
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .bg-fb {
+  background-color: blue;
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .bg-tw {
+  background-color: rgb(0, 195, 255);
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .bg-ig {
+  background-color: rgb(255, 0, 247);
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .bg-ln {
+  background-color: rgb(4, 27, 77);
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .bg-yt {
+  background-color: red;
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex .bg-pt {
+  background-color: red;
+}
+#panels .container-panels .rigth-panel .rigth-panel-flex img {
+  width: 100%;
 }
 
 #footer {

@@ -105,7 +105,7 @@ width:fit-content;
 }
 
 .btn-2:hover {
-    background: rgb(133, 133, 243);
+    background: rgb(1, 55, 11);
     color: #fff;
     border: none;
 }
@@ -119,8 +119,194 @@ width:fit-content;
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(400px, auto);
+    grid-auto-rows: minmax(200px, auto);
     gap: 30px;
+}
+
+//mainheader
+#mainheader {
+    width: 90%;
+    margin: 0 auto;
+    .container-nav1-2 {
+        justify-content: space-between;
+        margin: 2rem 0;
+        .nav-1 {
+            .flex {
+               
+            }
+        }
+        .nav-2 {
+            .flex {
+                justify-content: space-between;
+                text-align: end;
+                color: red;
+            }
+        }
+    }
+    .container-nav3-4 {
+        justify-content: space-between;
+        .form-inline {
+           margin-top: 1.5rem;
+           height: 40px;
+           width: 50px;
+           justify-content: end;
+            input {
+                padding: 10px;
+            }
+            ::placeholder {
+                text-align: left;
+                font-family: "Montserrat", sans-serif;
+            }
+          .btn-outline-dark {
+            width: 50px;
+            height: 40px;
+          }
+        }
+    }
+    .navbar {
+        ul {
+            display: flex;
+            margin: 3rem 0;
+        }
+        li {
+            margin-left: 1rem;
+        }
+    }
+}
+
+//showcase
+#showcase {
+    width: 85%;
+    margin: 0 auto;
+    .flexbox-1 {
+        background: url("/img/showcase-1.jpg");
+        grid-column: 1/4;
+        grid-row: 1/3;
+        a {
+            margin: 1rem 0;
+        }
+    }
+    .flexbox-2 {
+        background: url("/img/showcase-2.jpg");
+        grid-column: 4/5;
+        grid-row: 1;
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: .9rem; 
+            margin-bottom: .5rem;
+        }
+    }
+    .flexbox-3 {
+        background: url("/img/showcase-3.jpg");
+        grid-column: 4/5;
+        grid-row: 2;
+    }
+    .flexbox-2,
+    .flexbox-3 {
+        h2 {
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: .9rem; 
+            margin-bottom: .5rem;
+        }
+    }
+
+    .flexbox-1,
+    .flexbox-2,
+    .flexbox-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    }
+}
+
+//panels
+#panels {
+    width: 90%;
+    margin: 0 auto;
+    .container-panels {
+        .left-panel {
+            width: 33%;
+            img {
+                width: 80%;
+                }
+             .left-panel-content {
+                width: 80%;
+                p {
+                    text-align: justify;
+                    margin: 1rem 0;
+                    line-height: 25px;
+                }
+             }
+        }
+        .center-panel {
+            width: 33%;
+            margin-top: 6rem;
+            .center-panel-flex {
+                .flexbox-1 {
+                    margin-bottom: 3rem;
+                    img {
+                        width: 100px;
+                    }
+                   .flexbox-content {
+                    a {
+                        margin-bottom: 1rem;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                    h4 {
+                        margin-top: 1rem;
+                    }
+                   }
+                }
+            }
+        }
+        .rigth-panel {
+            width: 33%;
+            margin-top: 6rem;
+            .rigth-panel-flex  {
+                .btn {
+                    color: #fff;
+                    width: 100px;
+                    height: 100px; 
+                    text-align: center;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 1rem;
+                    border: none;
+                }
+              .bg-fb {
+                background-color: blue;
+              }
+              .bg-tw {
+                background-color: rgb(0, 195, 255);
+              }
+              .bg-ig {
+                background-color: rgb(255, 0, 247);
+              }
+              .bg-ln {
+                background-color: rgb(4, 27, 77);
+              }
+              .bg-yt {
+                background-color: red;
+              }
+              .bg-pt {
+                background-color: red;
+              }
+              img {
+                width: 100%;
+              }
+            }
+        }
+    }
 }
 
 
