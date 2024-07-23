@@ -223,6 +223,22 @@ form button {
   padding: 20px;
 }
 
+#showcase-news {
+  width: 90%;
+  margin: 0 auto;
+}
+#showcase-news .showcase-flex {
+  margin-bottom: 4rem;
+}
+#showcase-news .showcase-flex img {
+  width: 43%;
+}
+#showcase-news .showcase-flex .showcase-content p {
+  line-height: 30px;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
 #panels {
   width: 90%;
   margin: 0 auto;
@@ -231,10 +247,7 @@ form button {
   width: 33%;
 }
 #panels .container-panels .left-panel img {
-  width: 80%;
-}
-#panels .container-panels .left-panel .left-panel-content {
-  width: 80%;
+  width: 100%;
 }
 #panels .container-panels .left-panel .left-panel-content p {
   text-align: justify;
@@ -262,7 +275,6 @@ form button {
 }
 #panels .container-panels .rigth-panel {
   width: 33%;
-  margin-top: 6rem;
 }
 #panels .container-panels .rigth-panel .rigth-panel-flex .btn {
   color: #fff;

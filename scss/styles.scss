@@ -227,6 +227,25 @@ width:fit-content;
     }
 }
 
+//showcase-news
+#showcase-news {
+    width: 90%;
+    margin: 0 auto;
+    .showcase-flex {
+        margin-bottom: 4rem;
+        img {
+            width: 43%;
+        }
+        .showcase-content {
+            p {
+                line-height: 30px;
+                margin-bottom: 2rem;
+                text-align: justify;
+            }
+        }
+    }
+}
+
 //panels
 #panels {
     width: 90%;
@@ -235,10 +254,10 @@ width:fit-content;
         .left-panel {
             width: 33%;
             img {
-                width: 80%;
+                width: 100%;
                 }
              .left-panel-content {
-                width: 80%;
+                
                 p {
                     text-align: justify;
                     margin: 1rem 0;
@@ -271,7 +290,6 @@ width:fit-content;
         }
         .rigth-panel {
             width: 33%;
-            margin-top: 6rem;
             .rigth-panel-flex  {
                 .btn {
                     color: #fff;
