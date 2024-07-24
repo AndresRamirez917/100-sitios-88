@@ -37,6 +37,7 @@ ul {
     font-weight: 400;
     margin: 2rem 0;
     text-transform: capitalize;
+    color: #0000007e;
 }
 
 .container {
@@ -151,7 +152,7 @@ width:fit-content;
             .flex {
                 justify-content: space-between;
                 text-align: end;
-                color: red;
+                color: #0000007e;
             }
         }
     }
@@ -236,10 +237,13 @@ width:fit-content;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
+    p {
+        color: #000000b1;
+    }
     }
 }
 
-//showcase-news
+//showcase-news (Politics, Sports, Health)
 #showcase-news {
     width: 90%;
     margin: 0 auto;
@@ -258,7 +262,7 @@ width:fit-content;
     }
 }
 
-//article
+//articles
 #article {
     width: 90%;
     margin: 0 auto;
@@ -282,6 +286,9 @@ width:fit-content;
                     .flexbox-content {
                         h4 {
                             margin-top: 1rem;
+                        }
+                        a:hover {
+                            text-decoration: underline;
                         }
                     }
                 }

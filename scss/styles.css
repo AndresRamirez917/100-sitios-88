@@ -34,6 +34,7 @@ ul {
   font-weight: 400;
   margin: 2rem 0;
   text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.4941176471);
 }
 
 .container {
@@ -150,7 +151,7 @@ form button {
 #mainheader .container-nav1-2 .nav-2 .flex {
   justify-content: space-between;
   text-align: end;
-  color: red;
+  color: rgba(0, 0, 0, 0.4941176471);
 }
 #mainheader .container-nav3-4 {
   justify-content: space-between;
@@ -234,6 +235,11 @@ form button {
   background-size: cover;
   padding: 20px;
 }
+#showcase .flexbox-1 p,
+#showcase .flexbox-2 p,
+#showcase .flexbox-3 p {
+  color: rgba(0, 0, 0, 0.6941176471);
+}
 
 #showcase-news {
   width: 90%;
@@ -272,6 +278,9 @@ form button {
 }
 #article .container .center-panel .center-panel-flex .flexbox-1 .flexbox-content h4 {
   margin-top: 1rem;
+}
+#article .container .center-panel .center-panel-flex .flexbox-1 .flexbox-content a:hover {
+  text-decoration: underline;
 }
 #article .container .rigth-panel .rigth-panel-flex .btn {
   color: #fff;
