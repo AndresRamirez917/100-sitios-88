@@ -1,15 +1,28 @@
 //mainheader
 #mainheader {
     .container {
+        justify-content: center;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
         .container-nav1-2 {
-            display: inline-block;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
             .nav-1 {
-                font-size: 10px;
-                margin-bottom: 2rem;
+                .flex {
+                    justify-content: center;
+                    font-size: 10px;
+                    padding: 2rem 0;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                
             }
         }
         .container-nav3-4{
             display: block;
+            margin-top: 2rem;
             .form-inline {
                 text-align: center;
                 margin: 0 auto;
@@ -57,12 +70,54 @@
                 width: 100%;
                 display: block;
                 margin: 0 auto;
+                padding-bottom: 2rem;
+            }
+            .center-panel {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
             }
             .rigth-panel {
                 width: 100%;
                 display: block;
                 margin: 0 auto; 
             }
+        }
+    }
+}
+
+//politics
+#showcase-news {
+    .container {
+        .showcase-flex {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+//article
+#article {
+    .container {
+        display: block;
+    }
+}
+
+//advertise, about
+#advertise {
+    .container {
+        .advertise-flex {
+            display: block;
+        }
+    }
+}
+
+#about {
+    .container {
+        .about-flex {
+            display: block;
         }
     }
 }

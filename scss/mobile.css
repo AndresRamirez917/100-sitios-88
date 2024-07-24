@@ -1,12 +1,24 @@
-#mainheader .container .container-nav1-2 {
-  display: inline-block;
+#mainheader .container {
+  justify-content: center;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
-#mainheader .container .container-nav1-2 .nav-1 {
+#mainheader .container .container-nav1-2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .container .container-nav1-2 .nav-1 .flex {
+  justify-content: center;
   font-size: 10px;
-  margin-bottom: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  margin: 0 auto;
 }
 #mainheader .container .container-nav3-4 {
   display: block;
+  margin-top: 2rem;
 }
 #mainheader .container .container-nav3-4 .form-inline {
   text-align: center;
@@ -45,9 +57,34 @@
   width: 100%;
   display: block;
   margin: 0 auto;
+  padding-bottom: 2rem;
+}
+#panels .container .container-panels .center-panel {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 #panels .container .container-panels .rigth-panel {
   width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+#showcase-news .container .showcase-flex {
+  display: block;
+}
+#showcase-news .container .showcase-flex img {
+  width: 100%;
+}
+
+#article .container {
+  display: block;
+}
+
+#advertise .container .advertise-flex {
+  display: block;
+}
+
+#about .container .about-flex {
+  display: block;
 }/*# sourceMappingURL=mobile.css.map */
