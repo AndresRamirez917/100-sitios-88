@@ -66,7 +66,7 @@ img {
 
 form {
     .form-group {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;    
     }
     .form-control {
         display: block;
@@ -77,7 +77,19 @@ form {
     button {
         width: 100%;
     }
-}
+    input:focus {
+        box-shadow: 0 0 5px #3786da;
+        border: 1px solid #30567e;
+        outline: none;
+      }
+      textarea:focus {
+        // box-shadow: 0 0 5px #3786da;
+        border: 1px solid #30567e;
+        outline: none;
+      }
+    }
+ 
+
 
 .btn {
     display: block;
@@ -408,6 +420,29 @@ width:fit-content;
               img {
                 width: 100%;
               }
+            }
+        }
+    }
+}
+
+//advertise
+#advertise {
+    width: 90%;
+    margin: 0 auto;
+    p {
+        line-height: 30px;
+    }
+}
+
+//about
+#about {
+    width: 90%;
+    margin: 0 auto;
+    .about-flex {
+        .flexbox-1, .flexbox-2 {
+            flex: 1;
+            p {
+                line-height: 30px;
             }
         }
     }

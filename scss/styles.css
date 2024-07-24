@@ -80,6 +80,15 @@ form .form-control {
 form button {
   width: 100%;
 }
+form input:focus {
+  box-shadow: 0 0 5px #3786da;
+  border: 1px solid #30567e;
+  outline: none;
+}
+form textarea:focus {
+  border: 1px solid #30567e;
+  outline: none;
+}
 
 .btn {
   display: block;
@@ -381,6 +390,25 @@ form button {
 }
 #panels .container-panels .rigth-panel .rigth-panel-flex img {
   width: 100%;
+}
+
+#advertise {
+  width: 90%;
+  margin: 0 auto;
+}
+#advertise p {
+  line-height: 30px;
+}
+
+#about {
+  width: 90%;
+  margin: 0 auto;
+}
+#about .about-flex .flexbox-1, #about .about-flex .flexbox-2 {
+  flex: 1;
+}
+#about .about-flex .flexbox-1 p, #about .about-flex .flexbox-2 p {
+  line-height: 30px;
 }
 
 #contact {
