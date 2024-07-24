@@ -1,1 +1,53 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .container .container-nav1-2 {
+  display: inline-block;
+}
+#mainheader .container .container-nav1-2 .nav-1 {
+  font-size: 10px;
+  margin-bottom: 2rem;
+}
+#mainheader .container .container-nav3-4 {
+  display: block;
+}
+#mainheader .container .container-nav3-4 .form-inline {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#mainheader .container .navbar {
+  text-align: center;
+  display: block;
+}
+
+.grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#showcase .flexbox-1 {
+  grid-row: 1;
+}
+#showcase .flexbox-2 {
+  grid-row: 2;
+}
+#showcase .flexbox-3 {
+  grid-row: 3;
+}
+#showcase .flexbox-1,
+#showcase .flexbox-2,
+#showcase .flexbox-3 {
+  grid-column: 1;
+}
+
+#panels .container .container-panels {
+  display: block;
+}
+#panels .container .container-panels .left-panel {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#panels .container .container-panels .rigth-panel {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}/*# sourceMappingURL=mobile.css.map */
